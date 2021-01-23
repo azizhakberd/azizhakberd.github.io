@@ -121,3 +121,15 @@ footer {
 footer div {
     font-size: 1rem;
 }
+
+.closer {
+    width: 100%;
+    padding: 8px 0 8px 0;
+
+    background-color: var(--main-bgcolor);
+    text-align: center;
+}
+
+.closer:hover {
+    color: rgb(31, 31, 230);
+}
