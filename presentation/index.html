@@ -18,29 +18,87 @@
                 <div class="header">
                     <h2>Section 1</h2>
                 </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime unde cumque repellat perferendis
+                    modi labore, corporis amet voluptatem quidem deserunt rem commodi hic minima nobis, enim
+                    reprehenderit vitae? Quis, adipisci?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rem doloremque voluptatibus vitae
+                    exercitationem quibusdam corrupti error non dolorem nemo, laboriosam molestiae maiores aliquid,
+                    voluptatum adipisci iusto minus eveniet enim.
+                </p>
             </div>
             <div class="section closed">
                 <div class="header">
                     <h2>Section 2</h2>
                 </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime unde cumque repellat perferendis
+                    modi labore, corporis amet voluptatem quidem deserunt rem commodi hic minima nobis, enim
+                    reprehenderit vitae? Quis, adipisci?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rem doloremque voluptatibus vitae
+                    exercitationem quibusdam corrupti error non dolorem nemo, laboriosam molestiae maiores aliquid,
+                    voluptatum adipisci iusto minus eveniet enim.
+                </p>
             </div>
             <div class="section closed">
                 <div class=" header">
                     <h2>Section 3</h2>
                 </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime unde cumque repellat perferendis
+                    modi labore, corporis amet voluptatem quidem deserunt rem commodi hic minima nobis, enim
+                    reprehenderit vitae? Quis, adipisci?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rem doloremque voluptatibus vitae
+                    exercitationem quibusdam corrupti error non dolorem nemo, laboriosam molestiae maiores aliquid,
+                    voluptatum adipisci iusto minus eveniet enim.
+                </p>
             </div>
             <div class="section closed">
                 <div class="header">
                     <h2>Section 4</h2>
                 </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime unde cumque repellat perferendis
+                    modi labore, corporis amet voluptatem quidem deserunt rem commodi hic minima nobis, enim
+                    reprehenderit vitae? Quis, adipisci?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rem doloremque voluptatibus vitae
+                    exercitationem quibusdam corrupti error non dolorem nemo, laboriosam molestiae maiores aliquid,
+                    voluptatum adipisci iusto minus eveniet enim.
+                </p>
             </div>
             <div class="section closed">
                 <div class="header">
                     <h2>Section 5</h2>
                 </div>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime unde cumque repellat perferendis
+                    modi labore, corporis amet voluptatem quidem deserunt rem commodi hic minima nobis, enim
+                    reprehenderit vitae? Quis, adipisci?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic rem doloremque voluptatibus vitae
+                    exercitationem quibusdam corrupti error non dolorem nemo, laboriosam molestiae maiores aliquid,
+                    voluptatum adipisci iusto minus eveniet enim.
+                </p>
             </div>
         </div>
     </div>
+
+    <footer>
+        This page designed by Hakberdiev Aziz<br>
+        azizhakberdiev64@gmail.com<br><br>
+        <div>
+            Hakberdiev, 2021
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('click', function (event) {
+            if (event.target.tagName === 'P' || event.target.tagName === 'IMG') {
+                return alert(event.target.tagName)
+            }
+
+            event.target.closest('div.section').classList.toggle('closed')
+        })
+    </script>
 </body>
 
 </html>
