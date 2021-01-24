@@ -12,6 +12,8 @@ body {
     font-size: 3.7vh;
 
     overflow: hidden;
+
+    cursor: default;
 }
 
 #pageWrapper {
